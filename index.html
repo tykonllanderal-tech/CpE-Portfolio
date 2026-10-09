@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lance Llanderal | CpE Portfolio</title>
+  <meta name="description" content="Portfolio of Lance Tykon F. Llanderal, first-year Computer Engineering student at Mapua University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="logo" href="#home" aria-label="Mapúa University home">
+        <img src="images/mapua-logo.png" alt="Mapúa University Logo" class="site-logo">
+      </a>
+      <button class="menu" type="button" aria-expanded="false" aria-controls="links">Menu</button>
+      <ul class="links" id="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#coursework">Coursework</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Personal journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HOME ============ -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">1st Year Computer Engineering Student</p>
+          <h1>Hello! I'm Lance</h1>
+          <h2>A freshman at Mapua University</h2>
+          <p>
+            Welcome to my portfolio! It is a journal of my journey as a Computer
+            Engineering (CpE) student at Mapua University Intramuros. This is where I
+            keep my projects, activities, and experiences from college life, so I can
+            track my progress and growth over the years.
+          </p>
+          <p>
+            My goals at the university are to advance my technical knowledge, sharpen
+            my critical thinking, grow my creativity, and learn how technology can
+            solve real-world problems. As a future Computer Engineer, I want the skills
+            to excel in both software and hardware development.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#about">Explore my portfolio</a>
+            <a class="button secondary" href="#contact">Let’s connect</a>
+          </div>
+          <ul class="hero-stats" aria-label="Quick overview">
+            <li class="reveal">
+              <span>01</span>
+              <div>
+                <strong>Freshman</strong>
+                <small>BS CpE</small>
+              </div>
+            </li>
+            <li class="reveal">
+              <span>02</span>
+              <div>
+                <strong>Focus</strong>
+                <small>Software + hardware</small>
+              </div>
+            </li>
+            <li class="reveal">
+              <span>03</span>
+              <div>
+                <strong>Goal</strong>
+                <small>Build meaningful solutions</small>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="portrait" aria-label="Portrait of Lance">
+          <span>LL</span>
+          <!-- EDIT: put your photo at images/profile-pic.jpg. If the file is missing, the initials stay. -->
+          <img src="images/profile-pic.jpg" alt="Profile Picture" class="profile-pic" onerror="this.remove()">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2 class="title">About me</h2>
+        <p>
+          Hi! I'm Lance Tykon F. Llanderal, a first-year BS Computer Engineering
+          student at Mapua University Intramuros. I'm 19 years old and the youngest
+          in my family. I live in South Caloocan City. I chose Mapua because of its
+          strong reputation with employers and its commitment to quality education,
+          even though the campus is several kilometers from my home.
+        </p>
+        <p>
+          As a Computer Engineering student, my main focus is software, especially
+          databases and programming. I believe a strong software foundation is
+          needed to understand how computers work. From time to time, I also tinker
+          with computer parts to see how they work inside and how they complement
+          each other. When I take something apart, I put it back together, and if it
+          was broken, I manage to get it working again.
+        </p>
+        <p>
+          While I study at Mapua, I hope to contribute to the university community,
+          excel in my field, learn new skills, and build new connections as I grow
+          as an individual and as a professional.
+        </p>
+
+        <div class="fact-grid" aria-label="Areas of interest">
+          <div class="fact reveal">
+            <span class="fact-label">Interests</span>
+            <strong>Programming</strong>
+          </div>
+          <div class="fact reveal">
+            <span class="fact-label">Focus</span>
+            <strong>Databases & systems</strong>
+          </div>
+          <div class="fact reveal">
+            <span class="fact-label">Mindset</span>
+            <strong>Problem-solving</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COURSEWORK ============ -->
+    <section id="coursework" class="section alt">
+      <div class="container">
+        <h2 class="title">Coursework</h2>
+        <div class="cards">
+
+          <article class="card">
+            <p class="meta">Coursework 1 · CPE101-4</p>
+            <h3>NSTP: Civic Engagement in Computer Engineering</h3>
+            <p>An infographic on how the National Service Training Program connects
+               technical skills with social responsibility.</p>
+            <a href="files/cw1-nstp-infographic.pdf" target="_blank" rel="noopener">View PDF</a>
+          </article>
+
+          <article class="card">
+            <p class="meta">Coursework 2 · CPE101-4 · Sept 26, 2026</p>
+            <h3>Reverse Engineering Analysis of In-Ear Monitors</h3>
+            <p>A paper that applies the Engineering Design Process to in-ear
+               monitors, from the original problem to a working prototype.</p>
+            <a href="files/cw2-iem-reverse-engineering.pdf" target="_blank" rel="noopener">View PDF</a>
+          </article>
+
+          <article class="card">
+            <p class="meta">Coursework 3 · CPE101-4</p>
+            <h3>Neuromorphic Computing</h3>
+            <p>My output on neuromorphic computing, an emerging computer engineering
+               technology.</p>
+            <a href="https://drive.google.com/file/d/1BN79Hkta_CUZC7FQXK71Du8uLP7T90d6/view?usp=drive_link" target="_blank" rel="noopener">Open on Google Drive</a>
+          </article>
+
+          <article class="card">
+            <p class="meta">Certificate · Aug 26, 2026</p>
+            <h3>Design Thinking for Innovators</h3>
+            <p>Online course completed through Coursera.</p>
+            <a href="files/coursera-design-thinking.pdf" target="_blank" rel="noopener">View certificate</a>
+            <a href="https://coursera.org/verify/1S74XK067BQP" target="_blank" rel="noopener">Verify on Coursera</a>
+          </article>
+
+        </div>
+
+        <h3 class="subtitle">Watch: Neuromorphic Computing</h3>
+        <!-- Needs Google Drive sharing set to "Anyone with the link". -->
+        <div class="video">
+          <iframe src="https://drive.google.com/file/d/1BN79Hkta_CUZC7FQXK71Du8uLP7T90d6/preview"
+                  title="Neuromorphic Computing" allow="autoplay" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="title">Projects</h2>
+        <div class="carousel">
+          <button class="arrow" type="button" id="prev" aria-label="Previous project">&#10094;</button>
+          <div class="track" id="track" tabindex="0" aria-label="Project list">
+
+            <!-- To add another project, copy one <article class="slide"> block and edit it. -->
+            <article class="slide">
+              <p class="meta">Project · CPE101-4</p>
+              <h3>BinIQ: IoT-Enabled Smart Waste Level Monitoring and Route Optimization</h3>
+              <p><strong>The problem:</strong> Fixed collection schedules send trucks to bins that are
+                 still empty and miss bins that are already overflowing. This wastes fuel and time.</p>
+              <p><strong>Proposed solution:</strong> Sensors in each bin report how full it is. A
+                 dashboard flags bins that need pickup and plans the shortest route to collect them.</p>
+              <!-- EDIT: make sure this paragraph matches the parts and methods your team really chose. -->
+              <p><strong>How it works:</strong> An ultrasonic sensor and a microcontroller measure the
+                 fill level and send it to the cloud. The app then shows live bin status on a map and
+                 optimizes the collection route.</p>
+              <a href="https://drive.google.com/drive/folders/13N0EpvfBHCsllU7IqTF9WdqLjLPv0z9Q" target="_blank" rel="noopener">Open project files on Google Drive</a>
+            </article>
+
+          </div>
+          <button class="arrow" type="button" id="next" aria-label="Next project">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PERSONAL JOURNEY ============ -->
+    <section id="journey" class="section alt">
+      <div class="container narrow">
+        <h2 class="title">Personal journey</h2>
+        <h3 class="journey-title">My First Three Months in College</h3>
+        <p>
+          In the past three months as a freshman here at Mapua, I can say it was fun yet
+          hell. Tasks, quizzes, you name it, were all not easy. Although it has been
+          difficult to adapt to this new environment, thanks to my classmates, friends, and
+          family, I was able to pick myself up and slowly adjust to these changes.
+        </p>
+        <p>
+          I faced the difficult reality of college, where you constantly juggle your personal
+          and academic life. Personally, the biggest challenge was adapting to commuting, but
+          as I move forward, I'm finding college a lot more peaceful and easier than I first
+          expected. I admit there are other challenges too, such as the insane workload,
+          stress, sleepless nights, and quizzes. Still, I found my way through. By balancing
+          my workload and managing my time well, I have time for myself, my family, and the
+          person I love.
+        </p>
+        <p>
+          Overall, even if it was difficult, this program has been shaping me in multiple
+          ways. It lets me use my creativity, apply my critical thinking skills, and
+          practice strict time management. These are why I believe this program has shaped me
+          technically and personally during my time here at Mapua so far.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2 class="title">Contact</h2>
+        <ul class="contact-list">
+          <li><strong>Personal email:</strong> <a href="mailto:tykonllanderal@gmail.com">tykonllanderal@gmail.com</a></li>
+          <li><strong>School email:</strong> <a href="mailto:ltfllanderal@mymail.mapua.edu.ph">ltfllanderal@mymail.mapua.edu.ph</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lance-tykon-f-llanderal-2308b7442" target="_blank" rel="noopener">linkedin.com/in/lance-tykon-f-llanderal-2308b7442</a></li>
+          <!-- EDIT: to make Facebook a link, wrap the name in <a href="YOUR PROFILE URL" target="_blank" rel="noopener">...</a> -->
+          <li><strong>Facebook:</strong> <a href="https://www.facebook.com/lance.tykon" target="_blank" rel="noopener">Lance Tykon F. Llanderal</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Lance Tykon F. Llanderal · BS Computer Engineering, Mapua University</p>
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
